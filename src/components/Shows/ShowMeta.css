@@ -1,0 +1,34 @@
+.icon-time,
+.icon-year{
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+.icon-year{
+    background-image: url('/icon-year.png');
+}
+.icon-time{
+    background-image: url('/icon-time.png');
+}
+.show-meta{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    background-color: rgba(255,255,255,0.6);
+    z-index: 1;
+    padding: 3px 15px;
+    color: #000;
+    transition: all 250ms ease;
+}
+.show-meta .show-meta--year,
+.show-meta .show-meta--time{
+    display: block;
+    text-align: left;
+    font-size: 0.8em;
+}
+.show-meta *{
+    margin-bottom: 5px;
+}
+.show-meta *:last-child{
+    margin-bottom: 0;
+}

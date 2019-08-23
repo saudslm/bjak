@@ -1,0 +1,42 @@
+.single-show-container{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.single-show-image{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.single-show-image img{
+    margin: auto;
+    max-width: 100%;
+}
+.tags-list{
+    display: flex;
+    list-style: none;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+}
+.tags-list li{
+    display: inline-block;
+    background: #4a4a4a;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding: 2px 10px;
+    color: white;
+}
+
+@media(min-width: 600px) {
+    .single-show-desription{
+        margin-left: 20px;
+        flex: 1;
+    }
+    .single-show-image{
+        width: auto;
+    }
+    .single-show-container{
+        flex-direction: row;
+    }
+}
